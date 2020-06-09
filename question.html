@@ -1,0 +1,10 @@
+<!-- question.html -->
+
+<pl-question-panel>
+  <!-- params.x is defined by data["params"]["x"] in server.py's `generate()`. -->
+  <!-- params.operation defined by in data["params"]["operation"] in server.py's `generate()`. -->
+  If $x = {{params.x}}$ and $y$ is {{params.operation}} $x$, what is $y$?
+</pl-question-panel>
+
+<!-- y is defined by data["correct_answer"]["y"] in server.py's `generate()`. -->
+<pl-number-input answers-name="y" label="$y =$"></pl-number-input>
