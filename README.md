@@ -2,7 +2,7 @@
 Starting point for building PrairieLearn Questions/Question Generators.
 
 
-#### Basic Structure
+## Structure
 
 * **info.json**
   * Basic configuration info for the question.
